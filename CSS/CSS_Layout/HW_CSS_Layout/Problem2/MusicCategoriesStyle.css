@@ -1,0 +1,64 @@
+@charset "utf-8";
+body{
+    margin:0px;
+    padding:0px;    
+}
+
+#container {
+    background-color: #EFEEEC;
+    width: 440px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 5px;
+	border-radius: 8px;
+}
+
+header {
+    background-color: #EFEEEC;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+article {
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+    border: 1px solid #999999;
+    padding: 20px;
+    padding-right: 0px;
+    font-size: 15px;
+}
+
+article img {
+    display: inline-block;
+    border: 1px solid grey;
+}
+
+body #container section article div {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    margin: 0 0 0px 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.Listen_Music {
+    background-image: url(images/red_button.png);
+    border: none;
+    width: 85px;
+    height: 25px;
+    color: #FFFFFF;
+    margin-left: -112px;
+}
+
+.Add_New {
+    background-image: url(images/red_button.png);
+    border: none;
+    width: 70px;
+    height: 25px;
+    color: #FFFFFF;
+    margin-left: 1px;
+}

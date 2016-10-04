@@ -1,0 +1,58 @@
+﻿body {
+    font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0;
+}
+
+#wrapper {
+    width: 930px;
+    height: 206px;
+    border-radius: 15px;
+    border: solid 2px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,de2fff+0,f9dbff+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #de2fff 0%, #f9dbff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#de2fff 0%,#f9dbff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#de2fff 0%,#f9dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f9dbff',GradientType=0 ); /* IE6-9 */
+
+}
+
+#wrapper div h1 {
+    padding-left: 34px;
+    padding-top: 0px;
+    margin-top: 14px;
+    font-size: 29px;
+    margin-bottom: 6px;
+
+}
+
+#wrapper .postedby {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 5px;
+    margin: 0 0 0 49px;
+    width: 385px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#wrapper div .left-arrow, .right-arrow {
+    padding-top: 27px;
+}
+
+#wrapper div .left-arrow {
+    float: left;
+}
+
+#wrapper div .right-arrow {
+    float: right;
+}
+
+#wrapper div .info {
+    width: 869px;
+    padding-left: 35px;
+    margin-top: 22px;
+    text-align: justify;
+}

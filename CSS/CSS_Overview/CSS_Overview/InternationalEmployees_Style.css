@@ -1,0 +1,52 @@
+﻿body {
+    font-family: Arial, Verdana, Algerian;
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    width: 600px;
+    height: 150px;
+}
+
+td {
+    padding: 3px;
+    border-right: solid 2px grey;
+    padding-left: 10px;
+}
+
+.borderRight {
+    border:none;
+}
+
+.head {
+    color: white;
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,52b152+74,83c783+96,002400+100 */
+    background: #b4ddb4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b4ddb4 0%, #52b152 74%, #83c783 96%, #002400 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #b4ddb4 0%,#52b152 74%,#83c783 96%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #b4ddb4 0%,#52b152 74%,#83c783 96%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+}
+
+.rowGrey {
+    background-color: #E6E6E6;
+}
+
+.box {
+    clear: both;
+    display: inline-block;
+}
+
+.img {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+
+
+}
+
+.country {
+    float: right;
+    margin-top: 5px;
+}

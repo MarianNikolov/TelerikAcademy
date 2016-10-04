@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration and form</title>
+</head>
+<body>
+    <form method="get" action="">
+        <table border="1">
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" name="last-name" value="Enter your last name" /></td>
+            </tr>
+            <tr>
+                <th>First name</th>
+                <td><input type="text" name="first-name" value="Enter your first name" /></td>
+            </tr>
+            <tr>
+                <th>Adress</th>
+                <td><textarea rows="3" name="adress" placeholder="name of str. floor , apt."></textarea> </td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><input size="10" type="text" name="city" value="Sofia" /><b>State</b><input type="text" value="" size="5" /></td>
+            </tr>
+            <tr>
+                <th>Zip/Postal Code</th>
+                <td><input size="20" type="text" name="postCode" value="Enter postal code" /></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+                    <select name="Country">
+                        <option value="bulgarian">Bulgaria</option>
+                        <option value="mangale">Romania</option>
+                        <option value="greece">Greece</option>
+                        <option value="make">Macedonia</option>
+                        <option value="sarbin">Serbia</option>
+                        <option value="lefskar">Tyrkey</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Phone(Counrty code, Area code, number)</th>
+                <td>(+<input type="text" name="Ccode" value="359" size="1" />)<input size="1" type="text" name="acode" value="02" /><input size="8" type="tel" name="tel" value="" /> </td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td><input type="email" name="E-mail" value="#####@###.##" /></td>
+            </tr>
+            <tr>
+                <th>Birth date</th>
+                <td><input type="date" name="date" value="" /></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <select name="gender">
+                        <option value="confused">confused</option>
+                        <option value="man">Man</option>
+                        <option value="woman">Woman</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Starting date</th>
+                <td><input type="radio" name="2016" value="spring" />Spring 2016<input type="radio" name="2016" value="summmer" />Summer 2016</td>
+            </tr>
+            <tr>
+                <th>Comments/Questions</th>
+                <td><textarea rows="4" placeholder="Comment here" name="Comment"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Clear form" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

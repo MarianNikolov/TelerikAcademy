@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+body {
+	background-color:#A8A8A8;
+	padding:0px;
+	margin:0px;
+}
+#header {
+	text-align:center;
+}
+#header_title {
+	color: #F9F9D2;
+}
+li{
+	list-style-type:none;
+	font-weight:bold;
+	color:#FEFFFC;
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+.current {
+	background-color: #D2D2D2;
+	color:#FEFCF9;
+	font-size:24px;
+}
+.a_link {
+	color:#FEFCF9;
+	font-size:24px;
+}
+#underlined_element {
+	text-decoration:underline;
+}
+.article_headings {
+	color: #F9F9D2;
+	font-size:30px;
+}
+.paragraphs {
+	font-size:18px;
+}
+.minko {
+	color:inherit;
+}
+#footer {
+	text-align:center;
+}

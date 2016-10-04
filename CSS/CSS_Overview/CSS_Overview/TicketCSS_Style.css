@@ -1,0 +1,70 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Verdana, Cambria;
+}
+
+table {
+    background-color: gray;
+    width: 450px;
+    height: 250px;
+    padding: 5px;
+}
+
+td {
+    margin-bottom: 20px;
+}
+
+.TicketID {
+    text-align: left;
+    font-weight: normal;
+    font-size: 22px;
+    color: silver;
+}
+
+.firstElement {
+    color: white;
+    text-align: left;
+    font-style: italic;
+    width: 150px;
+}
+
+.yellow {
+    color: #dfedb0;
+}
+
+#noActive {
+    color: #fc0529;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+#answered {
+    color: #d86b28;
+    font-weight: bold;
+}
+
+.timeAndAction {
+    color: silver;
+}
+
+#box {
+    clear: both;
+    display: inline-block;
+}
+
+#circle {
+    border-radius: 50%;
+    background-color: green;
+    float: left;
+    height: 13px;
+    width: 13px;
+    border: solid 2px silver;
+    box-shadow: 0px 0px 5px white;
+}
+
+#Parker {
+    float: right;
+    margin-left: 10px;
+}

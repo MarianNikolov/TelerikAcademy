@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Windows Calculator</title>
+<link href="WindowsCalculator.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div id="container">
+    	<div class="clearfix">
+    		<div id="wrapper1">
+    			<div id="calculator_image"><img src="images/calculator_icon.png" alt="Calculator_icon"/></div>
+        		<div id="word">Calculator</div>
+        	</div>
+    		<div id="wrapper2">
+            <ul>
+                <li><img src="images/new_min_icon.png" alt="Minimize_icon"/></li>
+				<li><img src="images/max_icon.png" alt="Maximize_icon"/></li>
+                <li><img src="images/close_icon1.png" alt="Close_icon"/></li>
+            </ul>
+    		</div>
+        </div>
+        	<div class="clearfix">
+    		<table id="small_table">
+            	<tr>
+                	<td colspan="4"><label class="label"><span class="underlined_letter">V</span>iew</label>
+                    				<label class="label"><span class="underlined_letter">E</span>dit</label>
+                    				<label class="label"><span class="underlined_letter">H</span>elp</label>
+                    </td>
+                </tr>
+            </table>
+            <table id="table1">
+                 <tr>
+                     <td id="results">11110011100</td>
+                 </tr>
+                 <tr>
+                      <td>
+                           <table id="zero_one" cellspacing="0" cellpadding="0">
+                            	<tr class="first_third_row">
+                                		<td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                		<td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>                                        
+                                	</tr>
+                                    <tr class="second_forth_row">
+                                		<td>63</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                		<td>47</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>32</td> 
+                                	</tr>
+                                    <tr class="first_third_row">
+                                		<td>0000</td>
+                                        <td>0000</td>
+                                        <td>1000</td>
+                                        <td>0111</td>
+                                		<td>0001</td>
+                                        <td>1011</td>
+                                        <td>1011</td>
+                                        <td>0111</td> 
+                                	</tr>
+                                   <tr class="second_forth_row">
+                                		<td>31</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                		<td>15</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>0</td> 
+                                	</tr>                                    
+                            	</table>
+                            </td>
+                  		</tr>
+					</table>
+                 <table id="table2">
+                    <tr>
+                      <td id="radio_button_table">
+                      	<table cellspacing="5">
+                        	<tr>
+                            	<td>
+                                	<div><input type="radio" name="radio"/>Hex</div>
+                                    <div><input type="radio" name="radio"/>Dec</div>
+                                    <div><input type="radio" name="radio"/>Oct</div>
+                                    <div><input type="radio" name="radio"/>Bin</div>
+                                </td>
+                            </tr>
+                        </table>
+                      </td>
+                      <td>
+                      	<table class="inner_table">
+                            <tr>
+                              <td><input type="button" class="buttons" value="" disabled/></td>
+                              <td><input type="button" class="buttons" value="Mod"/></td>
+                              <td><input type="button" class="buttons" value="A" disabled /></td>
+                              <td><input type="button" class="buttons" value="MC"/></td>
+                              <td><input type="button" class="buttons" value="MR"/></td>
+                              <td><input type="button" class="buttons" value="MS"/></td>
+                              <td><input type="button" class="buttons" value="M+"/></td>
+                              <td><input type="button" class="buttons" value="M-"/></td>
+                            </tr>
+                            <tr>
+                              <td><input type="button" class="buttons" value="("/></td>
+                              <td><input type="button" class="buttons" value=")"/></td>
+                              <td><input type="button" class="buttons" value="B" disabled/></td>
+                              <td><input type="button" class="buttons" value="&#11013"/></td>
+                              <td><input type="button" class="buttons" value="CE"/></td>
+                              <td><input type="button" class="buttons" value="C"/></td>
+                              <td><input type="button" class="buttons" value="±"/></td>
+                              <td><input type="button" class="buttons" value="&radic;" disabled/></td>
+                            </tr>
+                            <tr>
+                              <td><input type="button" class="buttons" value="RoL"/></td>
+                              <td><input type="button" class="buttons" value="RoR"/></td>
+                              <td><input type="button" class="buttons" value="C" disabled/></td>
+                              <td><input type="button" class="buttons" value="7"/></td>
+                              <td><input type="button" class="buttons" value="8"/></td>
+                              <td><input type="button" class="buttons" value="9"/></td>
+                              <td><input type="button" class="buttons" value="/"/></td>
+                              <td><input type="button" class="buttons" value="%" disabled/></td>
+                            </tr>
+                          </table>
+                      </td>
+                    </tr>
+                    
+                    <tr>
+                      <td>
+                      	<table cellspacing="5">
+                        	<tr>
+                            	<td>
+                                	<span><input type="radio" name="radio"/>Qword</span>
+                                    <div><input type="radio" name="radio"/>Dword</div>
+                                    <div><input type="radio" name="radio"/>Word</div>
+                                    <div><input type="radio" name="radio"/>Byte</div>
+                                </td>
+                            </tr>
+                        </table>
+                      </td>
+                      <td>
+                      	<table class="inner_table">
+                            <tr>
+                              <td><input type="button" value="Or" class="buttons"/></td>
+                              <td><input type="button" class="buttons" value="Xor"/></td>
+                              <td><input type="button" class="buttons" value="D" disabled/></td>
+                              <td><input type="button" class="buttons" value="4"/></td>
+                              <td><input type="button" class="buttons" value="5"/></td>
+                              <td><input type="button" class="buttons" value="6"/></td>
+                              <td><input type="button" class="buttons" value="*"/></td>
+                              <td><input type="button" class="buttons" value="1/x" disabled/></td>
+                            </tr>
+                            <tr>
+                              <td><input type="button" class="buttons" value="Lsh"/></td>
+                              <td><input type="button" class="buttons" value="Rsh"/></td>
+                              <td><input type="button" class="buttons" value="E" disabled/></td>
+                              <td><input type="button" class="buttons" value="1"/></td>
+                              <td><input type="button" class="buttons" value="2"/></td>
+                              <td><input type="button" class="buttons" value="3"/></td>
+                              <td><input type="button" class="buttons" value="-"/></td>
+                              <td rowspan="2" ><input type="button" class="buttons ravno" value="="/></td>
+                            </tr>
+                            <tr>
+                              <td><input type="button" class="buttons" value="Not"/></td>
+                              <td><input type="button" class="buttons" value="And"/></td>
+                              <td><input type="button" class="buttons" value="F" disabled/></td>
+                              <td colspan="2"><input type="button" class="buttons zero" value="0"/></td>
+                              <td><input type="button" class="buttons" value="."/></td>
+                              <td><input type="button" class="buttons" value="+"/></td>
+                            </tr>
+                          </table>
+                      </td>
+                 </tr>
+             </table>
+        </div>
+	</div>
+</body>
+</html>

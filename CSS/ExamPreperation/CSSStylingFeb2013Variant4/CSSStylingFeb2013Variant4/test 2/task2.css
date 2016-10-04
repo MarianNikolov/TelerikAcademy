@@ -1,0 +1,72 @@
+﻿body {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+    body #wrapper {
+        width: 681px;
+        height: 418px;
+        background-color: #CCC;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+        body #wrapper .holder {
+            float: left;
+        }
+
+            body #wrapper .holder img {
+                border-radius: 5px;
+                clear: both;
+                width: 551px;
+                height: 414px;
+            }
+
+.playlist ul {
+    float: right;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+    .playlist ul li img {
+        display: block;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .playlist ul li span {
+        display: block;
+        color: black;
+        font-weight: bold;
+        padding-right: 3px;
+
+    }
+
+    .playlist ul li span:hover {
+        display: block;
+        color: black;
+        font-weight: bold;
+        padding-right: 3px;
+        text-decoration: underline;
+    }
+
+.playlist ul {
+    padding-left: 0;
+    margin: 0;
+    margin-top: 5px;
+
+}
+
+    .playlist ul li a {
+        text-decoration: none;
+
+    }
+
+
+    .playlist ul li {
+        margin-bottom: 10px;
+        border-bottom: 2px solid;
+        padding-left: 5px;
+    }

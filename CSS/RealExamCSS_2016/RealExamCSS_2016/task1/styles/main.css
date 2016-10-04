@@ -1,0 +1,161 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    margin: 30px;
+}
+
+    body #wrapper {
+        width: 270px;
+        height: 504px;
+        background-color: #E6E6E6;
+        padding-top: 10px;
+    }
+
+        body #wrapper #avatar img {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+        }
+
+        body #wrapper #avatar {
+            text-align: center;
+        }
+
+    body #main-info {
+        text-align: center;
+        border-bottom: 1px solid #ffffff;
+        width: 250px;
+        margin-left: 10px;
+        height: 90px;
+    }
+
+        body #main-info h1 {
+            margin-top: 5px;
+            font-weight: bold;
+            font-size: 26px;
+            margin-bottom: 0;
+        }
+
+        body #main-info h2 {
+            text-align: center;
+            margin-top: 3px;
+            font-size: 19px;
+            color: #6A6A6A;
+            margin-bottom: 7px;
+        }
+
+    body #label {
+        display: initial;
+    }
+
+    body #main-info a {
+        text-decoration: none;
+        color: #68A6DB;
+        font-size: 13px;
+    }
+
+    body #main-info div {
+        background-color: #6CC644;
+        padding: 3px;
+        border-radius: 3px;
+        width: 30px;
+        height: 22px;
+    }
+
+    body #main-info #label {
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+
+      body #details {
+        text-align: center;
+        border-bottom: 1px solid #ffffff;
+        width: 250px;
+        margin-left: 10px;
+        height: 84px;
+    }
+
+   
+
+   body #details #location p {
+        display: inline-block;
+        margin: 5px;
+        font-size: 15px;
+        padding-left: 5px;
+    }
+   body #details #location span {
+color: #9999A0;
+   }
+
+     body #details {
+        margin-top: 6px;
+
+    }
+
+     body #details #mail p a {
+        
+        text-decoration: none; 
+        color: #68A6DB;
+        font-size: 15px;
+        padding-left: 5px;
+    }
+
+
+   body #details #mail p {
+        display: inline-block;
+        margin: 5px;
+        text-decoration: none; 
+        color: #68A6DB;
+        margin-top: 3px;
+    }
+   body #details #mail span {
+color: #9999A0;
+   }
+
+
+    body #details #joined p {
+        display: inline-block;
+        margin: 5px;
+        font-size: 15px;
+        margin-top: 3px;
+        padding-left: 5px;
+
+
+    }
+    body #details #joined span {
+color: #9999A0;
+   }
+
+     body #git-info div {
+         text-align: center;
+         margin: 15px;
+     }
+
+     body #git-info div {
+         display: inline-block;
+         position: relative;
+        font-size: 10px;
+        color: #6A6A6A;
+     }
+
+      body #git-info span {
+         color: #4078C7;
+         font-size: 30px;
+         position: absolute;
+         font-weight: bold;
+          margin-right: 30px;
+
+     }
+    
+      body #git-info .followers {
+          margin-right: 40px;
+      }
+
+      body #git-info .following {
+          margin-right: 40px;
+
+      }

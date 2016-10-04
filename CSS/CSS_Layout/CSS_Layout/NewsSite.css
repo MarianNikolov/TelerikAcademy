@@ -1,0 +1,95 @@
+﻿body {
+    font-family: Arial, Algerian;
+    font-size: 14px;
+}
+
+    body .wraper {
+        background-color: #1E3741;
+        padding-top: 5px;
+        height: 450px;
+        width: 900px;
+        border-radius: 10px;
+    }
+
+.sideNav > ul > li > a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.nav > ul > li > a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav {
+    margin-left: -30px;
+}
+
+#underLine {
+    text-decoration: underline;
+}
+
+.nav > ul > li {
+    background-color: #4B5F67;
+    padding: 15px;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+    .nav > ul > li > a {
+        color: #8A9C9B;
+        text-decoration: none;
+    }
+
+#novini {
+    background-color: transparent;
+    color: white;
+}
+
+    #novini > a {
+        color: white;
+    }
+
+.sideNav {
+    margin-left: -30px;
+    display: inline-block;
+}
+
+    .sideNav > ul > li {
+        width: 250px;
+        padding: 15px;
+        margin-right: 2px;
+        border-bottom: solid 1px #8A9C9B;
+    }
+
+        .sideNav > ul > li > a {
+            color: #8A9C9B;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+#hover {
+    background-color: #00968C;
+}
+
+    #hover > a {
+        color: white;
+    }
+
+#last {
+    border-bottom: none;
+}
+
+.img {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+img {
+    width: 550px;
+    height: 350px;
+}

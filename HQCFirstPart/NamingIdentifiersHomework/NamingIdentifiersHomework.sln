@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorClass_123", "RefactorcClass_123\RefactorClass_123.csproj", "{AE7A4A4F-11EB-45FD-A926-61F4B41A647E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorMake_Чуек", "RefactorMake_Чуек\RefactorMake_Чуек.csproj", "{49F15518-28BD-4E54-87EE-A7FF1C7D4E22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorClickONTheButtonInJavaScript", "RefactorClickONTheButtonInJavaScript\RefactorClickONTheButtonInJavaScript.csproj", "{81CED2D6-BB1F-4E6C-B0E3-DBAC641581AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorApplication1", "RefactorApplication1\RefactorApplication1.csproj", "{2BA738B0-8393-469E-B25E-C4797BA87DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE7A4A4F-11EB-45FD-A926-61F4B41A647E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7A4A4F-11EB-45FD-A926-61F4B41A647E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7A4A4F-11EB-45FD-A926-61F4B41A647E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7A4A4F-11EB-45FD-A926-61F4B41A647E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F15518-28BD-4E54-87EE-A7FF1C7D4E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F15518-28BD-4E54-87EE-A7FF1C7D4E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F15518-28BD-4E54-87EE-A7FF1C7D4E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F15518-28BD-4E54-87EE-A7FF1C7D4E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CED2D6-BB1F-4E6C-B0E3-DBAC641581AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CED2D6-BB1F-4E6C-B0E3-DBAC641581AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CED2D6-BB1F-4E6C-B0E3-DBAC641581AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CED2D6-BB1F-4E6C-B0E3-DBAC641581AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA738B0-8393-469E-B25E-C4797BA87DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA738B0-8393-469E-B25E-C4797BA87DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA738B0-8393-469E-B25E-C4797BA87DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA738B0-8393-469E-B25E-C4797BA87DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

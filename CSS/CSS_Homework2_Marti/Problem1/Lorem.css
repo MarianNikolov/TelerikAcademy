@@ -1,0 +1,14 @@
+@charset "utf-8";
+#lorem {
+	font-family:consolas, sans-serif;
+	color: #0094FF
+}
+#bold {
+	font-weight: bold
+}
+#edward {
+	font-family: Edwardian Script ITC;
+	font-size: 40px
+}
+
+
