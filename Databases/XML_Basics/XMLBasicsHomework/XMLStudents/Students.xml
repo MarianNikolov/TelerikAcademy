@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Students.xslt"?>
+<university xmlns="urn:students">
+<students>
+  <student>
+    <name>Pesho</name>
+    <gender>men</gender>
+    <birthDate>1990-03-23</birthDate>
+    <phone>0888 88 88 88</phone>
+    <emali>gosho@abv.bg</emali>
+    <course>Programming</course>
+    <specialty>Program Engineering</specialty>
+    <facultyNumber>0124</facultyNumber>
+    <exams>
+      <exam>
+        <name>Math</name>
+        <tutor>
+          <name>Prof.Peshof</name>
+          <endorsements>true</endorsements>
+        </tutor>
+        <score>8</score>
+      </exam>
+      <exam>
+        <name>Bulgarian language</name>
+        <tutor>
+          <name>Prof.Ognqnov</name>
+          <endorsements>false</endorsements>
+        </tutor>
+        <score>2</score>
+      </exam>
+      <exam>
+        <name>Physics</name>
+        <tutor>
+          <name>Prof.Ivanov</name>
+          <endorsements>true</endorsements>
+        </tutor>
+        <score>1</score>
+      </exam>
+    </exams>
+    <enrollments>
+      <date>1993-05-22</date>
+      <score>33</score>
+    </enrollments>
+  </student>
+  <student>
+    <name>Ivanka</name>
+    <gender>women</gender>
+    <birthDate>1991-01-12</birthDate>
+    <phone>0777 77 77 77</phone>
+    <emali>ivanka@abv.bg</emali>
+    <course>History</course>
+    <specialty>National history</specialty>
+    <facultyNumber>1133</facultyNumber>
+    <exams>
+      <exam>
+        <name>Math</name>
+        <tutor>
+          <name>Prof.Peshof</name>
+          <endorsements>false</endorsements>
+        </tutor>
+        <score>3</score>
+      </exam>
+      <exam>
+        <name>Bulgarian language</name>
+        <tutor>
+          <name>Prof.Ognqnov</name>
+          <endorsements>true</endorsements>
+        </tutor>
+        <score>1</score>
+      </exam>
+      <exam>
+        <name>Physics</name>
+        <tutor>
+          <name>Prof.Ivanov</name>
+          <endorsements>true</endorsements>
+        </tutor>
+        <score>9</score>
+      </exam>
+    </exams>
+    <enrollments>
+      <date>1991-11-18</date>
+      <score>56</score>
+    </enrollments>
+  </student>
+</students>
+  </university>

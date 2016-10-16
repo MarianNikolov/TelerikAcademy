@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album>
+    <authorName>Rammstein</authorName>
+    <albumName>Mutter</albumName>
+  </album>
+  <album>
+    <authorName>Rammstein</authorName>
+    <albumName>Rosenrot</albumName>
+  </album>
+  <album>
+    <authorName>Red Hot Chili Peppers</authorName>
+    <albumName>Californication </albumName>
+  </album>
+</albums>
