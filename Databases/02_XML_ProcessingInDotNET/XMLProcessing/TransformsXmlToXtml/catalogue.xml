@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue>
+  <album id="1">
+    <name>Mutter</name>
+    <artist>Rammstein</artist>
+    <year>2001</year>
+    <price>10</price>
+    <songs>
+      <song id="1">
+        <title>Mein Herz brennt</title>
+        <buration>4:39</buration>
+      </song>
+      <song id="2">
+        <title>Links 2-3-4</title>
+        <buration>3:36</buration>
+      </song>
+      <song id="3">
+        <title>Sonne</title>
+        <buration>3:35</buration>
+      </song>
+      <song id="4">
+        <title>Ich will</title>
+        <buration>3:37</buration>
+      </song>
+      <song id="5">
+        <title>Feuer frei!</title>
+        <buration>3:08</buration>
+      </song>
+      <song id="6">
+        <title>Mutter</title>
+        <buration>4:28</buration>
+      </song>
+      <song id="7">
+        <title>Spieluhr</title>
+        <buration>4:46</buration>
+      </song>
+      <song id="8">
+        <title>Zwitter</title>
+        <buration>4:17</buration>
+      </song>
+      <song id="9">
+        <title>Rein raus</title>
+        <buration>3:09</buration>
+      </song>
+      <song id="10">
+        <title>Adios</title>
+        <buration>3:48</buration>
+      </song>
+      <song id="11">
+        <title>Nebel</title>
+        <buration>4:54</buration>
+      </song>
+    </songs>
+  </album>
+
+  <album id="2">
+    <name>Rosenrot</name>
+    <artist>Rammstein</artist>
+    <year>2005</year>
+    <price>22</price>
+    <songs>
+      <song id="1">
+        <title>Benzin</title>
+        <buration>3:46</buration>
+      </song>
+      <song id="2">
+        <title>"Mann gegen Mann</title>
+        <buration>3:50</buration>
+      </song>
+      <song id="3">
+        <title>Rosenrot</title>
+        <buration>3:54</buration>
+      </song>
+      <song id="4">
+        <title>Spring</title>
+        <buration>5:24</buration>
+      </song>
+      <song id="5">
+        <title>Wo bist du</title>
+        <buration>3:55</buration>
+      </song>
+      <song id="6">
+        <title>Stirb nicht vor mir</title>
+        <buration>4:05</buration>
+      </song>
+      <song id="7">
+        <title>Zerstören</title>
+        <buration>5:28</buration>
+      </song>
+      <song id="8">
+        <title>Hilf mir</title>
+        <buration>4:43</buration>
+      </song>
+      <song id="9">
+        <title>Te quiero puta!</title>
+        <buration>3:55</buration>
+      </song>
+      <song id="10">
+        <title>Feuer und Wasser</title>
+        <buration>5:17</buration>
+      </song>
+      <song id="11">
+        <title>Ein Lied</title>
+        <buration>3:43</buration>
+      </song>
+    </songs>
+  </album>
+
+  <album id="3">
+    <name>Californication </name>
+    <artist>Red Hot Chili Peppers</artist>
+    <year>1999</year>
+    <price>12</price>
+    <songs>
+      <song id="1">
+        <title>Around the World</title>
+        <buration>3:58</buration>
+      </song>
+      <song id="2">
+        <title>Parallel Universe</title>
+        <buration>4:30</buration>
+      </song>
+      <song id="3">
+        <title>Scar Tissue</title>
+        <buration>3:37</buration>
+      </song>
+      <song id="4">
+        <title>Otherside</title>
+        <buration>4:15</buration>
+      </song>
+      <song id="5">
+        <title>Get on Top</title>
+        <buration>3:18</buration>
+      </song>
+      <song id="6">
+        <title>Californication</title>
+        <buration>5:21</buration>
+      </song>
+      <song id="7">
+        <title>Easily</title>
+        <buration>3:51</buration>
+      </song>
+      <song id="8">
+        <title>Porcelain</title>
+        <buration>2:43</buration>
+      </song>
+      <song id="9">
+        <title>Emit Remmus</title>
+        <buration>4:00</buration>
+      </song>
+      <song id="10">
+        <title>I Like Dirt</title>
+        <buration>2:37</buration>
+      </song>
+      <song id="11">
+        <title>This Velvet Glove</title>
+        <buration>3:45</buration>
+      </song>
+      <song id="12">
+        <title>Savior"</title>
+        <buration>4:52</buration>
+      </song>
+      <song id="13">
+        <title>Purple Stain</title>
+        <buration>4:13</buration>
+      </song>
+      <song id="14">
+        <title>Right on Time</title>
+        <buration>1:52</buration>
+      </song>
+      <song id="15">
+        <title>Road Trippin</title>
+        <buration>3:25</buration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

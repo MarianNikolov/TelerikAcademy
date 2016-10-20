@@ -1,0 +1,12 @@
+<albums>
+  <album>
+    <name>Mutter</name>
+    <price>10</price>
+    <year>2001</year>
+  </album>
+  <album>
+    <name>Californication </name>
+    <price>12</price>
+    <year>1999</year>
+  </album>
+</albums>

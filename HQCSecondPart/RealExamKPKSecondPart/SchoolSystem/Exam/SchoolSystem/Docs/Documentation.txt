@@ -1,0 +1,14 @@
+﻿Bottleneck description: --------------------
+#1: Engine - In method WriteLine() Thread.Sleep(350) making program sleep for 350 milliseconds.
+
+
+Bug reports: --------------------
+Format: #Bug number - Class name - Bug description
+Example: #1 - PartnerBankingService - The variable "money" at line 36 overflows when you try to add more than 2.1 billion dollars.
+--------
+#1 - Engine - In method WriteLine() cycle for (double i = 0; i < 0x105; i++) just print on console 265 current message.
+#2 - Engine - when write on console Console.Write("\n") write unnecessary blank line. 
+#3 - Grade - missing grades from 1 to 7. 
+#4 - Student - When student collectoin marks is empty, must send message with content "This student has no marks.".
+#5 - RemoveTeacherCommand -  The message is sucessfully but has to be successfully.
+#6 - RemoveStudentCommand -  The message is sucessfully but has to be successfully

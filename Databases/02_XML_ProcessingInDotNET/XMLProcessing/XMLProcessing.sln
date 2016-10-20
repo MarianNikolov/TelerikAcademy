@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLProcessing", "XMLProcessing\XMLProcessing.csproj", "{5DDBCB19-19C3-4538-83AE-81D20996CAE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraverseDirectory", "TraverseDirectory\TraverseDirectory.csproj", "{C217E71D-458D-4A55-85C6-F84B3FA8B23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveYearsAgo", "FiveYearsAgo\FiveYearsAgo.csproj", "{AD41A393-9BE2-4ECA-AB8B-2D82EC0EFD4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiveYearsAgoLINQ", "FiveYearsAgoLINQ\FiveYearsAgoLINQ.csproj", "{C46ECDCA-47D6-4C18-9A4B-76BF4645EF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformsXmlToXtml", "TransformsXmlToXtml\TransformsXmlToXtml.csproj", "{6410EFD6-5640-4713-8549-B2AC88485375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformStyleSheet", "TransformStyleSheet\TransformStyleSheet.csproj", "{38B906F2-F275-470F-BA77-CD7303B4CB84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDBCB19-19C3-4538-83AE-81D20996CAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDBCB19-19C3-4538-83AE-81D20996CAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDBCB19-19C3-4538-83AE-81D20996CAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDBCB19-19C3-4538-83AE-81D20996CAE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C217E71D-458D-4A55-85C6-F84B3FA8B23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C217E71D-458D-4A55-85C6-F84B3FA8B23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C217E71D-458D-4A55-85C6-F84B3FA8B23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C217E71D-458D-4A55-85C6-F84B3FA8B23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD41A393-9BE2-4ECA-AB8B-2D82EC0EFD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD41A393-9BE2-4ECA-AB8B-2D82EC0EFD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD41A393-9BE2-4ECA-AB8B-2D82EC0EFD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD41A393-9BE2-4ECA-AB8B-2D82EC0EFD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46ECDCA-47D6-4C18-9A4B-76BF4645EF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46ECDCA-47D6-4C18-9A4B-76BF4645EF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46ECDCA-47D6-4C18-9A4B-76BF4645EF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46ECDCA-47D6-4C18-9A4B-76BF4645EF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6410EFD6-5640-4713-8549-B2AC88485375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6410EFD6-5640-4713-8549-B2AC88485375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6410EFD6-5640-4713-8549-B2AC88485375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6410EFD6-5640-4713-8549-B2AC88485375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B906F2-F275-470F-BA77-CD7303B4CB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B906F2-F275-470F-BA77-CD7303B4CB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B906F2-F275-470F-BA77-CD7303B4CB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B906F2-F275-470F-BA77-CD7303B4CB84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
