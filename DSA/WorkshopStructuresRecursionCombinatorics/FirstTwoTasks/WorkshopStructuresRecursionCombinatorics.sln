@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotation", "ReversePolishNotation\ReversePolishNotation.csproj", "{2C7B8709-27E3-419E-B3FE-BB57ADFE68EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passwords", "Passwords\Passwords.csproj", "{BFC3443F-28D4-49A7-8BC0-B06B25CC8F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C7B8709-27E3-419E-B3FE-BB57ADFE68EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7B8709-27E3-419E-B3FE-BB57ADFE68EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7B8709-27E3-419E-B3FE-BB57ADFE68EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7B8709-27E3-419E-B3FE-BB57ADFE68EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC3443F-28D4-49A7-8BC0-B06B25CC8F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC3443F-28D4-49A7-8BC0-B06B25CC8F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC3443F-28D4-49A7-8BC0-B06B25CC8F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC3443F-28D4-49A7-8BC0-B06B25CC8F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
