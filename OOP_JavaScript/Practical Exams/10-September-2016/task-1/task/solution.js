@@ -79,16 +79,16 @@ function solve() {
 
 				let currentObject = {
 					name: productsByNames[i],
-					totalPrice : currentTotalPrice,
-					quantity : currentQuantity
+					totalPrice: currentTotalPrice,
+					quantity: currentQuantity
 				};
 
 				productsResult.push(currentObject);
 			}
 
 			let result = {
-				products: productsResult,
-				totalPrice: this.showCost()
+				totalPrice: this.showCost(),
+				products: productsResult
 			};
 
 			return result;
@@ -100,3 +100,62 @@ function solve() {
 }
 
 module.exports = solve;
+
+// let { Product, ShoppingCart } = solve();
+
+// let prod0 = new Product("sacco", 'prod0', 5);
+// let prod1 = new Product("sacco", 'prod1', 5);
+// let prod2 = new Product("bmw", 'prod2', 22);
+// let prod3 = new Product("adidas", 'prod3', 1);
+// let prod4 = new Product("audi", 'prod4', 6);
+
+// let cart = new ShoppingCart();
+
+// cart.add(prod0);
+// cart.add(prod1);
+// cart.add(prod2);
+// cart.add(prod3);
+// cart.remove(prod2);
+
+// console.log(cart.getInfo());
+
+
+let {Product, ShoppingCart} = solve();
+
+let cart = new ShoppingCart();
+
+let pr1 = new Product("Sweets", "Shokolad Milka", 2);
+cart.add(pr1);
+console.log(cart.showCost());
+	//prints `2`
+
+let pr2 = new Product("Groceries", "Salad", 0.5);
+cart.add(pr2);
+cart.add(pr2);
+console.log(cart.showCost());
+	//prints `3`
+
+console.log(cart.showProductTypes());
+	//prints ["Sweets", "Groceries"]
+
+console.log(cart.getInfo());
+/* prints
+{
+    totalPrice: 3
+    products: [{
+        name: "Salad",
+        totalPrice: 1,
+        quantity: 2
+    }, {
+       name: "Shokolad Milka",
+       totalPrice: 2,
+       quantity: 1 
+    }]
+}
+*/
+
+// cart.remove({ name: "salad", productType: "Groceries", price: 0.5 });
+// //throws: "salad" is not equal to "Salad"
+
+cart.remove({ name: "Salad", productType: "Groceries", price: 0.5 });
+console.log(cart.getInfo());
