@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperheroesUniverse.Models", "SuperheroesUniverse.Models\SuperheroesUniverse.Models.csproj", "{251E8736-5368-4D09-8935-080A18EC5BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperheroesUniverse.Data", "SuperheroesUniverse.Data\SuperheroesUniverse.Data.csproj", "{F41B930A-0CE8-4A54-A4DA-3665389BFC86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperheroesUniverse.ConsoleClient", "SuperheroesUniverse.ConsoleClient\SuperheroesUniverse.ConsoleClient.csproj", "{61ADF4EB-EA6F-46A1-B150-088F2AE6BE14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{251E8736-5368-4D09-8935-080A18EC5BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251E8736-5368-4D09-8935-080A18EC5BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251E8736-5368-4D09-8935-080A18EC5BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251E8736-5368-4D09-8935-080A18EC5BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41B930A-0CE8-4A54-A4DA-3665389BFC86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41B930A-0CE8-4A54-A4DA-3665389BFC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41B930A-0CE8-4A54-A4DA-3665389BFC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41B930A-0CE8-4A54-A4DA-3665389BFC86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61ADF4EB-EA6F-46A1-B150-088F2AE6BE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61ADF4EB-EA6F-46A1-B150-088F2AE6BE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61ADF4EB-EA6F-46A1-B150-088F2AE6BE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61ADF4EB-EA6F-46A1-B150-088F2AE6BE14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

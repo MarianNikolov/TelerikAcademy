@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "username": "gosho",
+      "passHash": "546e68739aa8d0853baa0afce56c42979f549ea7",
+      "usernameLower": "gosho",
+      "authKey": "undefined&RU#WaxR=$+R^RmddC#kfUb*Ttzi)==jz@&^By%aPxIy$zkFyUj",
+      "id": "f7db01e5-126e-4d09-a108-96a14ce31486"
+    },
+    {
+      "username": "aaa",
+      "passHash": "f7a9e24777ec23212c54d7a350bc5bea5477fdbb",
+      "usernameLower": "aaa",
+      "authKey": "undefinedGeSw$JtT*aH_!BPb$=))!qQpvbgBT&$@HYZ(UhRJ(GJSqyRiprq",
+      "id": "562ff149-8b4f-4c3e-a143-cddfc0c6b138",
+      "events": []
+    },
+    {
+      "username": "ivancho",
+      "passHash": "3c1f20dd19d700c065f1bd6586700f9a04dd550b",
+      "usernameLower": "ivancho",
+      "authKey": "undefineddg-SLzTLy@HL_Vj_Pf!X$!*ay^_iyxMo)lTony%QP!jsM!gTmmn",
+      "id": "17d30a1a-2cec-405f-a734-6bac42a0080d",
+      "events": []
+    },
+    {
+      "username": "pesho",
+      "passHash": "178e9737eb77abf70fb069060931d1cb81fa7dda",
+      "usernameLower": "pesho",
+      "authKey": "undefined-aL=YePwXkFhX(n(@IbKta-hQ@!frY+iZ$#y&BUdlVu(RR%ep^^",
+      "id": "4fb35143-15cb-4320-a2da-56f7292872d8",
+      "events": []
+    },
+    {
+      "username": "penka",
+      "passHash": "4c26f2998117929c70e1cef3264a4af7880132e3",
+      "usernameLower": "penka",
+      "authKey": "undefined*#!ICd_$Ea*CtwuUpVYBOmUasCyDW(Po-&wQbiE%xlZXzJR&DhW",
+      "id": "9b899139-8261-4d94-9f96-503c185d7a5f",
+      "events": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f12037708b584332a2273d30077171b0" Name="Diagram1">
+        <EntityTypeShape EntityType="ComputerConfigurationsSystemModel.Computer" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerConfigurationsSystemModel.CompyterType" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerConfigurationsSystemModel.Cpu" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerConfigurationsSystemModel.Gpu" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerConfigurationsSystemModel.GpuType" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerConfigurationsSystemModel.StorageDevice" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerConfigurationsSystemModel.StorageDeviceType" Width="1.5" PointX="6" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ComputerConfigurationsSystemModel.sysdiagram" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="ComputerConfigurationsSystemModel.FK_Computers_CompyterTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerConfigurationsSystemModel.FK_Computers_Cpus" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerConfigurationsSystemModel.FK_Gpus_GpuTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerConfigurationsSystemModel.FK_StorageDevices_StorageDeviceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerConfigurationsSystemModel.ComputerStorageDivice" ManuallyRouted="false" />
+        <AssociationConnector Association="ComputerConfigurationsSystemModel.ComutersGpus" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
