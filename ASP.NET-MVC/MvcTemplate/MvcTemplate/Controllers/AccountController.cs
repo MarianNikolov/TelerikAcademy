@@ -8,8 +8,8 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using MvcTemplate.Models;
-using MvcTemplate.Models.Account;
+using MvcTemplate.ViewModels;
+using MvcTemplate.ViewModels.Account;
 using MvcTemplate.Data.Models;
 
 namespace MvcTemplate.Controllers

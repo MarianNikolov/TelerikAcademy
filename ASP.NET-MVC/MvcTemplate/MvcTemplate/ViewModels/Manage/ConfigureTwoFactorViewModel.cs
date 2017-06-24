@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MvcTemplate.Models
+namespace MvcTemplate.ViewModels.Manage
 {
     public class ConfigureTwoFactorViewModel
     {

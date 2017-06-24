@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace MvcTemplate.Models
+namespace MvcTemplate.ViewModels.Account
 {
-    public class ResetPasswordViewModel
+    public class RegisterViewModel
     {
         [Required]
         [EmailAddress]
@@ -20,7 +19,5 @@ namespace MvcTemplate.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
-
-        public string Code { get; set; }
     }
 }
