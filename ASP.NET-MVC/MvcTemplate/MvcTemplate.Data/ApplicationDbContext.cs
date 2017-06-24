@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
+using MvcTemplate.Data.Models;
 
-namespace MvcTemplate.Models
+namespace MvcTemplate.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

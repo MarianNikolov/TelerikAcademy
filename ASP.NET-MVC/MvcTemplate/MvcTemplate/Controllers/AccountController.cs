@@ -10,6 +10,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using MvcTemplate.Models;
 using MvcTemplate.Models.Account;
+using MvcTemplate.Data.Models;
 
 namespace MvcTemplate.Controllers
 {

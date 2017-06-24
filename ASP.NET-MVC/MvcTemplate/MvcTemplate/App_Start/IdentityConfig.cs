@@ -11,6 +11,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using MvcTemplate.Models;
+using MvcTemplate.Data.Models;
+using MvcTemplate.Data;
 
 namespace MvcTemplate
 {

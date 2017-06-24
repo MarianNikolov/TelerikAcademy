@@ -213,8 +213,6 @@
     <Compile Include="Models\Account\RegisterViewModel.cs" />
     <Compile Include="Models\Account\SendCodeViewModel.cs" />
     <Compile Include="Models\Account\VerifyCodeViewModel.cs" />
-    <Compile Include="Models\ApplicationDbContext.cs" />
-    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Manage\ConfigureTwoFactorViewModel.cs" />
     <Compile Include="Models\Manage\AddPhoneNumberViewModel.cs" />
     <Compile Include="Models\Manage\ChangePasswordViewModel.cs" />
@@ -301,6 +299,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MvcTemplate.Data.Common\MvcTemplate.Data.Common.csproj">
+      <Project>{b0c540ce-d06f-4e63-a14f-c6ebd3e3e65d}</Project>
+      <Name>MvcTemplate.Data.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcTemplate.Data.Models\MvcTemplate.Data.Models.csproj">
+      <Project>{e695bef6-833b-4a11-ab25-7adfb502a8f5}</Project>
+      <Name>MvcTemplate.Data.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcTemplate.Data\MvcTemplate.Data.csproj">
+      <Project>{98f52704-a606-429c-b2b4-9d06d8e48fa3}</Project>
+      <Name>MvcTemplate.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
