@@ -4,7 +4,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace MvcTemplate
+namespace MvcTemplate.Web
 {
     public class MvcApplication : HttpApplication
     {
@@ -13,7 +13,8 @@ namespace MvcTemplate
             DatabaseConfig.RegisterDatabase();
             ViewEngineConfig.RegisterViewEngines();
             AutofacConfig.RegisterAutofac();
-
+            AutoMapperConfig.RegisterAutoMapper();
+            
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
