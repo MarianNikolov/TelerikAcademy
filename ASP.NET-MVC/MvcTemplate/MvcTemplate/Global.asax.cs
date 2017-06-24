@@ -1,6 +1,8 @@
 ﻿using MvcTemplate.App_Start;
+using MvcTemplate.Data;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -13,10 +15,10 @@ namespace MvcTemplate
     {
         protected void Application_Start()
         {
-            ViewEngines.Engines.Clear();
-            ViewEngines.Engines.Add(new RazorViewEngine());
-
+            DatabaseConfig.RegisterDatabase();
+            ViewEngineConfig.RegisterViewEngines();
             AutofacConfig.RegisterAutofac();
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

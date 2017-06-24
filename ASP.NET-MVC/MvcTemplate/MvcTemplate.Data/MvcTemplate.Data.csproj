@@ -54,6 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="Migrations\201706241222402_InitialCreate.cs" />
+    <Compile Include="Migrations\201706241222402_InitialCreate.Designer.cs">
+      <DependentUpon>201706241222402_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,10 +66,19 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MvcTemplate.Data.Common\MvcTemplate.Data.Common.csproj">
+      <Project>{B0C540CE-D06F-4E63-A14F-C6EBD3E3E65D}</Project>
+      <Name>MvcTemplate.Data.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MvcTemplate.Data.Models\MvcTemplate.Data.Models.csproj">
       <Project>{e695bef6-833b-4a11-ab25-7adfb502a8f5}</Project>
       <Name>MvcTemplate.Data.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201706241222402_InitialCreate.resx">
+      <DependentUpon>201706241222402_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
