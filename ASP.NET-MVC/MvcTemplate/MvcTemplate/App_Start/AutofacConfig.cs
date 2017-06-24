@@ -1,7 +1,10 @@
 ﻿using Autofac;
 using Autofac.Integration.Mvc;
+using MvcTemplate.Data;
+using MvcTemplate.Data.Common;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
@@ -42,7 +45,10 @@ namespace MvcTemplate.App_Start
 
         private static void RegisterServices(ContainerBuilder builder)
         {
-            //builder.Register(x => new Worker()).As<IWorker>().InstancePerRequest();
+            // register template class
+            builder.RegisterGeneric(typeof(DbRepository<>)).As(typeof(IDbRepository<>)).InstancePerRequest();
+
+            builder.Register(x => new ApplicationDbContext()).As<DbContext>().InstancePerRequest();
         }
     }
 }

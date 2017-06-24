@@ -1,5 +1,7 @@
 ﻿using MvcTemplate.App_Start;
 using MvcTemplate.Data;
+using MvcTemplate.Data.Common;
+using MvcTemplate.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +12,17 @@ namespace MvcTemplate.Controllers
 {
     public class HomeController : Controller
     {
+        private IDbRepository<Joke> jokes;
+        private IDbRepository<JokeCategory> jokeCategories;
+
+        public HomeController(IDbRepository<Joke> jokes, IDbRepository<JokeCategory> jokeCategories)
+        {
+            this.jokes = jokes;
+            this.jokeCategories= jokeCategories;
+        }
+
         public ActionResult Index()
         {
-            var db = new ApplicationDbContext();
-            var usersCoun = db.Users.Count();
             return View();
         }
 
