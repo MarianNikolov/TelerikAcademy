@@ -1,4 +1,5 @@
-﻿using MvcTemplate.Data;
+﻿using MvcTemplate.App_Start;
+using MvcTemplate.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace MvcTemplate.Controllers
         public ActionResult Index()
         {
             var db = new ApplicationDbContext();
-            //var usersCoun = db.Users.Count();
+            var usersCoun = db.Users.Count();
             return View();
         }
 
