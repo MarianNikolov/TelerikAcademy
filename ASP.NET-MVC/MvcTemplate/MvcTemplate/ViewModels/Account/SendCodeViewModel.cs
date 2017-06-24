@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MvcTemplate.ViewModels.Account
+namespace MvcTemplate.Web.ViewModels.Account
 {
     public class SendCodeViewModel
     {

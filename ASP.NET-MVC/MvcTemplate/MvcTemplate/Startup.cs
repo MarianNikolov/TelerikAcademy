@@ -1,14 +1,14 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(MvcTemplate.Startup))]
-namespace MvcTemplate
+[assembly: OwinStartupAttribute(typeof(MvcTemplate.Web.Startup))]
+namespace MvcTemplate.Web
 {
     public partial class Startup
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            this.ConfigureAuth(app);
         }
     }
 }

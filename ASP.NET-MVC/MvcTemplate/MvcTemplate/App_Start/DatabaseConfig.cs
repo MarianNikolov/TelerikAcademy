@@ -6,7 +6,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace MvcTemplate.App_Start
+namespace MvcTemplate.Web.App_Start
 {
     public class DatabaseConfig
     {

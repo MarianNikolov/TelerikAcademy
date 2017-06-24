@@ -1,4 +1,4 @@
-﻿using MvcTemplate.App_Start;
+﻿using MvcTemplate.Web.App_Start;
 using MvcTemplate.Data;
 using MvcTemplate.Data.Common;
 using MvcTemplate.Data.Models;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MvcTemplate.Controllers
+namespace MvcTemplate.Web.Controllers
 {
     public class HomeController : Controller
     {

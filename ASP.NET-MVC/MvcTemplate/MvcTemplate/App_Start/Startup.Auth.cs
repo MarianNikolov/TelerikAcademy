@@ -5,11 +5,12 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using MvcTemplate.ViewModels;
+using MvcTemplate.Web.ViewModels;
 using MvcTemplate.Data;
 using MvcTemplate.Data.Models;
+using MvcTemplate.Web.App_Start;
 
-namespace MvcTemplate
+namespace MvcTemplate.Web
 {
     public partial class Startup
     {

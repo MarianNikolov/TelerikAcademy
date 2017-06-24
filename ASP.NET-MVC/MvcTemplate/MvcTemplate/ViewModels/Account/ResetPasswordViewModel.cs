@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace MvcTemplate.ViewModels.Account
+namespace MvcTemplate.Web.ViewModels.Account
 {
     public class ResetPasswordViewModel
     {

@@ -8,11 +8,11 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using MvcTemplate.ViewModels;
-using MvcTemplate.ViewModels.Account;
+using MvcTemplate.Web.ViewModels.Account;
 using MvcTemplate.Data.Models;
+using MvcTemplate.Web.App_Start;
 
-namespace MvcTemplate.Controllers
+namespace MvcTemplate.Web.Controllers
 {
     [Authorize]
     public class AccountController : Controller

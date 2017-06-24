@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace MvcTemplate
+namespace MvcTemplate.Web.App_Start
 {
     public class BundleConfig
     {

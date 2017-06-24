@@ -1,9 +1,4 @@
-﻿using MvcTemplate.App_Start;
-using MvcTemplate.Data;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
+﻿using MvcTemplate.Web.App_Start;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;

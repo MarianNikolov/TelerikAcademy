@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MvcTemplate.App_Start
+namespace MvcTemplate.Web.App_Start
 {
     public class AutofacConfig
     {
