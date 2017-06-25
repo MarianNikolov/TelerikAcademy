@@ -51,6 +51,7 @@
     <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.Mvc5.4.0.2\lib\net45\Autofac.Integration.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="AutoMapper, Version=6.1.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005" />
     <Reference Include="Glimpse.AspNet, Version=1.8.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Glimpse.AspNet.1.8.0\lib\net45\Glimpse.AspNet.dll</HintPath>
     </Reference>
@@ -223,6 +224,8 @@
     <Compile Include="ViewModels\Account\RegisterViewModel.cs" />
     <Compile Include="ViewModels\Account\SendCodeViewModel.cs" />
     <Compile Include="ViewModels\Account\VerifyCodeViewModel.cs" />
+    <Compile Include="ViewModels\Home\IndexViewModel.cs" />
+    <Compile Include="ViewModels\Home\JokeCategoryViewModel.cs" />
     <Compile Include="ViewModels\Home\JokeViewModel.cs" />
     <Compile Include="ViewModels\Manage\ConfigureTwoFactorViewModel.cs" />
     <Compile Include="ViewModels\Manage\AddPhoneNumberViewModel.cs" />
@@ -325,6 +328,10 @@
     <ProjectReference Include="..\MvcTemplate.Data\MvcTemplate.Data.csproj">
       <Project>{98f52704-a606-429c-b2b4-9d06d8e48fa3}</Project>
       <Name>MvcTemplate.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvcTemplate.Services.Data\MvcTemplate.Services.Data.csproj">
+      <Project>{01b67637-ecbc-43fe-b813-c084b0267846}</Project>
+      <Name>MvcTemplate.Services.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\MvcTemplate.Web.Infrastructure\MvcTemplate.Web.Infrastructure.csproj">
       <Project>{703d66bd-7bbb-47c5-ba2f-90b43593e5a3}</Project>

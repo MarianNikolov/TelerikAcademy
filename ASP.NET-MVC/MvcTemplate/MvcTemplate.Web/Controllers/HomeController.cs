@@ -8,30 +8,38 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Data.Entity;
+using MvcTemplate.Web.ViewModels.Home;
+using MvcTemplate.Web.Infrastructure.Mapping;
+using MvcTemplate.Services.Data.Contracts;
 
 namespace MvcTemplate.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private IDbRepository<Joke> jokes;
-        private IDbRepository<JokeCategory> jokeCategories;
-        private DbContext context;
+        private readonly IJokeService jokesServices;
+        private readonly ICategoriesService categoriesServices;
 
-        public HomeController(IDbRepository<Joke> jokes, IDbRepository<JokeCategory> jokeCategories, DbContext context)
+        public HomeController(IJokeService jokesServices, ICategoriesService categoriesServices)
         {
-            this.jokes = jokes;
-            this.jokeCategories= jokeCategories;
-            this.context = context;
+            this.jokesServices = jokesServices;
+            this.categoriesServices = categoriesServices;
         }
 
         public ActionResult Index()
         {
-            //this.jokeCategories.Add(new JokeCategory { Name = "uuuuf" });
-            var category = this.jokeCategories.All().ToList()[0];
-            this.jokes.Add(new Joke { Content = "a" , Category = category});
-            this.jokes.Add(new Joke { Content = "asdsfgdf" , CategoryId = 2});
-            this.context.SaveChanges();
-            return View();
+            var jokes = jokesServices.GetAll()
+                .To<JokeViewModel>().ToList();
+
+            var categories = this.categoriesServices.GetAll()
+                .To<JokeCategoryViewModel>().ToList();
+
+            var viewModel = new IndexViewModel
+            {
+                Jokes = jokes,
+                Categories = categories
+            };
+
+            return View(viewModel);
         }
 
         public ActionResult About()
