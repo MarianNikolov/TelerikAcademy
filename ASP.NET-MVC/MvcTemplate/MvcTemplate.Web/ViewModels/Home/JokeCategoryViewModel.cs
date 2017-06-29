@@ -12,5 +12,7 @@ namespace MvcTemplate.Web.ViewModels.Home
         public int Id { get; set; }
 
         public string Name { get; set; }
+
+        public IEnumerable<JokeViewModel> Jokes { get; set; }
     }
 }

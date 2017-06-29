@@ -1,8 +1,7 @@
-﻿using System;
-using System.Linq;
+﻿using MvcTemplate.Data.Common;
 using MvcTemplate.Data.Models;
 using MvcTemplate.Services.Data.Contracts;
-using MvcTemplate.Data.Common;
+using System.Linq;
 
 namespace MvcTemplate.Services.Data
 {
@@ -20,6 +19,23 @@ namespace MvcTemplate.Services.Data
             var jokeCategories = this.jokeCategories.All().OrderBy(x => x.Name);
 
             return jokeCategories;
+        }
+
+        public JokeCategory EnsureCategory(string name)
+        {
+            var category = this.jokeCategories.All().FirstOrDefault(x => x.Name == name);
+
+            if (category != null)
+            {
+                return category;
+            }
+
+            category = new JokeCategory { Name = name };
+
+            this.jokeCategories.Add(category);
+            this.jokeCategories.Save();
+
+            return category;
         }
     }
 }

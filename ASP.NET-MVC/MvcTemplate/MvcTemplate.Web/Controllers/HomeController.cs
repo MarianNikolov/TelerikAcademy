@@ -28,7 +28,7 @@ namespace MvcTemplate.Web.Controllers
         public ActionResult Index()
         {
             var jokes = jokesServices.GetAll()
-                .To<JokeViewModel>().ToList();
+                .To<JokeViewModel>().ToList().Take(50);
 
             var categories = this.categoriesServices.GetAll()
                 .To<JokeCategoryViewModel>().ToList();
