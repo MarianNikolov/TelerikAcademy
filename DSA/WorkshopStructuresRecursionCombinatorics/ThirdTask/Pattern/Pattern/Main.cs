@@ -14,24 +14,49 @@ namespace Pattern
 
             for (int i = 1; i < input ; i++)
             {
-                StringBuilder first = RotateLeft(currentFigure);
-                StringBuilder second = RotateRight(currentFigure);
+                StringBuilder leftRotated = RotateLeft(currentFigure);
+                StringBuilder rightRoteted = RotateRight(currentFigure);
 
                 StringBuilder currentResult = currentFigure;
                 currentFigure = new StringBuilder();
-                currentFigure.Append(first.ToString());
+                currentFigure.Append(leftRotated.ToString());
                 currentFigure.Append("u");
                 currentFigure.Append(currentResult.ToString());
                 currentFigure.Append("r");
                 currentFigure.Append(currentResult.ToString());
                 currentFigure.Append("d");
-                currentFigure.Append(second.ToString());
+                currentFigure.Append(rightRoteted.ToString());
             }
 
             Console.WriteLine(currentFigure.ToString());
 
             // comment before submitting
             //Svg.WriteToFile("output.svg", currentFigure.ToString());
+        }
+
+        private static StringBuilder RotateLeft(StringBuilder currentFigure)
+        {
+            StringBuilder result = new StringBuilder();
+
+            for (int i = 0; i < currentFigure.Length; i++)
+            {
+                switch (currentFigure[i])
+                {
+                    case 'r':
+                        result.Append("u"); break;
+                    case 'u':                           // r = u
+                        result.Append("r"); break;      // u = r
+                    case 'l':                           // l = d
+                        result.Append("d"); break;      // d = l
+                    case 'd':                           //
+                        result.Append("l"); break;      //
+                    default:
+                        throw new ArgumentException("aaaaaaaaaaaaa");
+                        break;
+                }
+            }
+
+            return result;
         }
 
         private static StringBuilder RotateRight(StringBuilder currentFigure)
@@ -59,30 +84,6 @@ namespace Pattern
             return result;
         }
 
-        private static StringBuilder RotateLeft(StringBuilder currentFigure)
-        {
-            StringBuilder result = new StringBuilder();
-
-            for (int i = 0; i < currentFigure.Length; i++)
-            {
-                switch (currentFigure[i])
-                {
-                    case 'r':
-                        result.Append("u"); break;
-                    case 'u':                           // r = u
-                        result.Append("r"); break;      // u = r
-                    case 'l':                           // l = d
-                        result.Append("d"); break;      // d = l
-                    case 'd':                           //
-                        result.Append("l"); break;      //
-                    default:
-                        throw new ArgumentException("aaaaaaaaaaaaa");
-                        break;
-                }
-            }
-
-            return result;
-        }
     }
 }
 
