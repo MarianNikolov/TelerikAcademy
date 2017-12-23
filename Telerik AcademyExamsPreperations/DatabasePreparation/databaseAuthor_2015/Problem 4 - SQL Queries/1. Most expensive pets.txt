@@ -1,7 +1,0 @@
-SELECT TOP 5 
-    Price,
-    YEAR(BirthTime) as BirthYear,
-    Breed
-FROM PetStore.dbo.Pets
-WHERE BirthTime >= Convert(datetime, '2012-01-01' )
-ORDER BY Price DESC
