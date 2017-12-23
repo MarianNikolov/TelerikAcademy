@@ -20,7 +20,7 @@ namespace Crawler
             // AngleSharp configurations
             IConfiguration configuration = Configuration.Default.WithDefaultLoader();
             IBrowsingContext browsingContex = BrowsingContext.New(configuration);
-
+            long countOfAddedJokes = 0;
             for (int i = 1; i < 65000; i++)
             {
                 string url = $"http://vicove.com/vic-{i}";
@@ -33,6 +33,8 @@ namespace Crawler
 
                 if (isValidJoke && isValidCategory)
                 {
+                    countOfAddedJokes++;
+
                     JokeCategory category = categoryesService.EnsureCategory(categoryName);
                     Joke joke = new Joke
                     {
@@ -43,9 +45,15 @@ namespace Crawler
                     db.Jokes.Add(joke);
                     db.SaveChanges();
 
-                    Console.WriteLine($"Added joke {i}");
+                    if (countOfAddedJokes % 100 == 0)
+                    {
+                        Console.WriteLine($"Added {countOfAddedJokes} jokes");
+                    }
                 }
             }
+
+            Console.WriteLine();
+            Console.WriteLine($"--- DONE => {countOfAddedJokes} joke added");
         }
     }
 }

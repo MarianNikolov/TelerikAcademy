@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupermarketQueue", "SupermarketQueue\SupermarketQueue.csproj", "{AF274D1E-A5C3-459C-B9CF-F45105F46068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Businessmen", "Businessmen\Businessmen.csproj", "{74C5C8AE-9033-4CB3-8ECE-51BC8A4714FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecoverMessage", "RecoverMessage\RecoverMessage.csproj", "{9BB9E949-D27F-4BB7-8093-245BC4187599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF274D1E-A5C3-459C-B9CF-F45105F46068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF274D1E-A5C3-459C-B9CF-F45105F46068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF274D1E-A5C3-459C-B9CF-F45105F46068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF274D1E-A5C3-459C-B9CF-F45105F46068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C5C8AE-9033-4CB3-8ECE-51BC8A4714FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C5C8AE-9033-4CB3-8ECE-51BC8A4714FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C5C8AE-9033-4CB3-8ECE-51BC8A4714FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C5C8AE-9033-4CB3-8ECE-51BC8A4714FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB9E949-D27F-4BB7-8093-245BC4187599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB9E949-D27F-4BB7-8093-245BC4187599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB9E949-D27F-4BB7-8093-245BC4187599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB9E949-D27F-4BB7-8093-245BC4187599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
